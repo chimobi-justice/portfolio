@@ -43,7 +43,7 @@
             </div>
             <div>
                 <div class="work_holder_img"><a href="#"><img src="assets/images/extorex.JPG" alt=""></a></div>
-                <div class="work_holder_img"><a href="#"><img src="assets/images/huddle.jpg" alt=""></a></div>
+                <div class="work_holder_img"><a href="#"><img src="assets/images/huddle.JPG" alt=""></a></div>
               <div class="work_holder_img"><a href="#"><img src="assets/images/fylo.JPG" alt=""></a></div>
           </div>
           <div>
