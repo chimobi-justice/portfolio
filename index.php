@@ -17,12 +17,11 @@
             <h1 class="service_numbers">01.</h1>
             <h3>UI/UX/ Design</h3>
             <p>i'm a seft taught UI/UX designer, making great impact and always create what ever my client deserved and deliver on time.</p>
-            <!-- <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos, odio odit voluptatibus laborum quam cum in aperiam dolorum animi minima.</p> -->
            </div>
            <div class="service_container_wrapper">
             <h1 class="service_numbers">02.</h1>
             <h3>Web Design</h3>
-            <p>createing contentible and credential disign and letting us a perfect and great web design and active very  best designs</p>
+            <p>creating contentible and credential disign and letting you have a perfect and great web designs and active standouts</p>
            </div>
            <div class="service_container_wrapper">
             <h1 class="service_numbers">03.</h1>
@@ -38,24 +37,19 @@
 
         <div class="work_wrapper">
           <div>
-              <div class="work_holder_img"><a href="#"><img src="assets/images/eazy.JPG" alt=""></a></div>
-              <div class="work_holder_img work_img"><a href="#"><img src="assets/images/extorex.JPG" alt=""></a></div>
-          </div>
-          <div>
-              <div class="work_holder_img"><a href="#"><img src="assets/images/fylo.JPG" alt=""></a></div>
-              <div class="work_holder_img work_img"><a href="#"><img src="assets/images/free.JPG" alt=""></a></div>
-          </div>
-          <div>
-              <div class="work_holder_img"><a href="#"><img src="assets/images/huddle.jpg" alt=""></a></div>
-              <div class="work_holder_img work_img"><a href="#"><img src="assets/images/static.jpeg" alt=""></a></div>
-          </div>
-          <div>
+              <div class="work_holder_img"><a href="#"><img src="assets/images/TTPC_PAID_LLC.JPG" alt=""></a></div>
+              <div class="work_holder_img"><a href="https://dented.epizy.com"><img src="assets/images/2dented.JPG" alt=""></a></div>              
               <div class="work_holder_img"><a href="#"><img src="assets/images/product-doppen.JPG" alt=""></a></div>
-              <div class="work_holder_img work_img"><a href="#"><img src="assets/images/queopen.JPG" alt=""></a></div>
+            </div>
+            <div>
+                <div class="work_holder_img"><a href="#"><img src="assets/images/extorex.JPG" alt=""></a></div>
+                <div class="work_holder_img"><a href="#"><img src="assets/images/huddle.jpg" alt=""></a></div>
+              <div class="work_holder_img"><a href="#"><img src="assets/images/fylo.JPG" alt=""></a></div>
           </div>
           <div>
               <div class="work_holder_img"><a href="#"><img src="assets/images/foodie.JPG" alt=""></a></div>
-              <div class="work_holder_img work_img"><a href="#"><img src="assets/images/Koggis.JPG" alt=""></a></div>
+              <div class="work_holder_img"><a href="#"><img src="assets/images/queopen.JPG" alt=""></a></div>
+              <div class="work_holder_img"><a href="#"><img src="assets/images/eazy.JPG" alt=""></a></div>
           </div>
         </div>
     </section>

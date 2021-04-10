@@ -1,17 +1,11 @@
-* {
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
-}
-body {
-    background: #f1f1f1;
-}
-
 /* hero_section */
-.hero-section {
-    background: #000;
-    width: 100%;
+#hero-section {
+    background: #fff;
+}
+#hero-section > .hero-section-wrapper {
+    width: 95%;
     height: 80vh;
+    margin: 0px auto;
     overflow: hidden;
     display: flex;
     justify-content: space-between;
@@ -19,7 +13,7 @@ body {
     align-items: center;
     overflow: hidden;
 }
-.hero-section >  #hero-section-content{
+#hero-section > .hero-section-wrapper > #hero-section-content{
     width: 85%;
     color: #fff;
     margin: 10px;
@@ -29,53 +23,50 @@ body {
     justify-content: center;
     align-items: center;
 }
-.hero-section >  #hero-section-content > div > p {
-    color: lightcoral;
+#hero-section > .hero-section-wrapper > #hero-section-content > div > p {
+    color: #ef4129;
     font-size: 1em;
 }
-.hero-section >  #hero-section-content > div > p.scroll_down {
-    color: #bfb2b2e6;
+#hero-section > .hero-section-wrapper > #hero-section-content > div > p.scroll_down {
+    color: #545454;
     font-size: 1em;
     margin-top: 10px;
     padding: 20px 0px 20px 0px;
 }
-.hero-section >  #hero-section-content > div > h2 {
-    color: #fff;
+#hero-section > .hero-section-wrapper > #hero-section-content > div > h2 {
+    color: #000;
     font-size: 2.9em;
 }
-.hero-section >  #hero-img-section {
-    width: 70%;
+#hero-section > .hero-section-wrapper > #hero-img-section {
+    width: 100%;
     height: auto;
-    padding-top: 10rem;
-    margin-left: 15rem;
 }
-.hero-section >  #hero-img-section > img{
-    width: 70%;
-    height: 400px;
-    margin: 10px;
+#hero-section > .hero-section-wrapper > #hero-img-section > img{
+    width: 80%;
+    height: 530px;
+    margin-left: 100px;
 
 }
 
 @media screen and (max-width: 576px) {
-    .hero-section {
+    #hero-section > .hero-section-wrapper {
         flex-direction: column-reverse;
         margin-bottom: 4rem;
         height: 700px;
     }
 
-    .hero-section >  #hero-img-section {
-        width: 70%;
+    #hero-section > .hero-section-wrapper >  #hero-img-section {
+        width: 100%;
         height: auto;
-        margin-right: 15rem;
+        margin-right: 13rem;
     }
-    .hero-section >  #hero-img-section > img{
-        width: 60%;
+    #hero-section > .hero-section-wrapper >  #hero-img-section > img{
+        width: 100%;
         height: 350px;
-        margin-top: 17rem;
-        margin-left: 5rem;
+        margin-top: 5rem;
     }
-     #hero-section-content{
-        width: 85%;
+    #hero-section > .hero-section-wrapper #hero-section-content{
+        width: 95%;
         color: #fff;
         font-size: 14px;
         margin: 10px;
@@ -86,10 +77,24 @@ body {
         justify-content: center;
         align-items: center;
     }
+    #hero-section > .hero-section-wrapper >  #hero-section-content > div > p:first-child {
+        font-size: 1.4em;
+        margin-top: 5px;
+        padding: 10px 0px 10px 0px;
+    }
+    #hero-section > .hero-section-wrapper >  #hero-section-content > div > h2 {
+        font-size: 2.5em;
+    }
+    #hero-section > .hero-section-wrapper >  #hero-section-content > div > p.scroll_down {
+        color: #bfb2b2e6;
+        font-size: 1.8em;
+        margin-top: 10px;
+        padding: 20px 0px 20px 0px;
+    }
 } 
 
 @media screen and (max-width: 440px) {
-    #hero-section-content{
+    #hero-section > .hero-section-wrapper > #hero-section-content{
         width: 85%;
         color: #fff;
         font-size: 13px;
@@ -104,7 +109,7 @@ body {
 }  
 
 @media screen and (max-width: 380px) {
-    #hero-section-content{
+    #hero-section > .hero-section-wrapper > #hero-section-content{
         width: 85%;
         color: #fff;
         font-size: 12px;
@@ -119,7 +124,7 @@ body {
 }
 
 @media screen and (max-width: 360px) {
-    #hero-section-content{
+    #hero-section > .hero-section-wrapper > #hero-section-content{
         width: 85%;
         color: #fff;
         font-size: 12px;
@@ -132,3 +137,41 @@ body {
         align-items: center;
     }
 }
+
+@media screen and (min-width: 577px) and (max-width: 992px) {
+    #hero-section > .hero-section-wrapper {
+        flex-direction: column-reverse;
+        margin-bottom: 4rem;
+        height: 700px;
+    }
+
+    #hero-section > .hero-section-wrapper >  #hero-img-section {
+        width: 76%;
+        height: auto;
+        margin-right: 12rem;
+    }
+    #hero-section > .hero-section-wrapper >  #hero-img-section > img{
+        width: 100%;
+        height: 350px;
+        margin-top: 17rem;
+        margin-left: 5rem;
+    }
+    #hero-section > .hero-section-wrapper #hero-section-content{
+        width: 85%;
+        color: #fff;
+        font-size: 14px;
+        margin: 10px;
+        margin-left: 35px;
+        padding: 1.5rem 0rem 1.5rem 0rem; 
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    #hero-section > .hero-section-wrapper >  #hero-section-content > div > p.scroll_down {
+        color: #bfb2b2e6;
+        font-size: 1.7em;
+        margin-top: 10px;
+        padding: 20px 0px 20px 0px;
+    }
+ }  

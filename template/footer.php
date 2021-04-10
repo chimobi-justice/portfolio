@@ -16,7 +16,7 @@
             </div>
             <div class="social">
               <p>Social</p>
-              <div><a href="#">facebook|</a> <a href="#">twitter|</a><a href="#">linkedIn|</a><a href="#">instagram</a></div>
+              <div><a href="https://www.justice-chimobi.10">facebook|</a> <a href="#">twitter|</a><a href="https://www.linkedin.com/in/justice-chimobi-8742091b1/">linkedIn|</a><a href="#">instagram</a></div>
             </div>
         </div>
 
