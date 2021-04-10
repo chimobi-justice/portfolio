@@ -24,9 +24,9 @@
         <li><a href="contact.php">SAY HELLO</a></li>
       </ul>
       <div id="social-media">
-        <li><a href="#"><img src="assets/images/facebook.png" alt="facebook"></a></li>
+        <li><a href="https://www.justice-chimobi.10"><img src="assets/images/facebook.png" alt="facebook"></a></li>
         <li><a href="#"><img src="assets/images/twitter.ico" alt="twitter"></a></li>
-        <li><a href="#"><img src="assets/images/linkedin.ico" alt="linkedIn"></a></li>
+        <li><a href="https://www.linkedin.com/in/justice-chimobi-8742091b1/"><img src="assets/images/linkedin.ico" alt="linkedIn"></a></li>
         <li><a href="#"><img src="assets/images/icon-instagram.svg" alt="instagram"></a></li>
       </div>
     </nav>

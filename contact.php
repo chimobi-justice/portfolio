@@ -2,11 +2,10 @@
 
     include('submission.php'); 
 
-
 ?>
 
 <head>
-    <title>justice-Dev</title>
+    <title>justice-Dev | Contact Me</title>
 </head>
 
     <?php include('template/header.php'); ?>
@@ -15,9 +14,18 @@
     <div class="contact_img_holder">
         <h3>I'm happy to connect, listen and help. Let's work together and build something awesome. Let's turn your idea to an even greater product. <i>Don't <b>hesitate</b> to contact me</i></h3>
         <img src="assets/images/contact.png" alt="contact_illustration">
-    </div>
+    </div>  
 
-    <form method="POST" id="contact_form">
+    <form action="" id="contact_form" method="POST">
+        
+    <?php if (!$res) : ?>
+        <p></p>
+    <?php elseif ($res['message'] === 'Your message has been sent, I\'ll get Back to you shortly!') : ?>
+        <p id="successResponse" class="response"><?php echo $res['message']; ?></p>
+    <?php elseif ($res['message'] === 'ERROR! your message wasn\'t Sent, Please try again') : ?>
+        <p id="errMsgResponse" class="response"><?php echo $res['message']; ?></p>
+    <?php endif ?>    
+
       <input type="text" name="firstname" id="firstname" placeholder="Enter your Firstname" value="<?php echo htmlspecialchars($firstname); ?>">
       <p class="Err" id="fNameErr"><?php echo $err['firstname']; ?></p>
       <input type="text" name="lastname" id="lastname" placeholder="Enter your Lastname" value="<?php echo htmlspecialchars($lastname); ?>">

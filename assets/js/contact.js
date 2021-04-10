@@ -10,6 +10,9 @@ let emailAddressErrMsg = document.getElementById('emailErr');
 let msg = document.getElementById('message');
 let msgErrMsg = document.getElementById('msgErr');
 
+let response = document.querySelector('.response');
+
+
 
 const clearErr = () => {
     if (fName.value.length > 0) {
@@ -30,3 +33,9 @@ lName.addEventListener('keyup', clearErr);
 emailAddress.addEventListener('keyup', clearErr);
 msg.addEventListener('keyup', clearErr);
 
+// added timeout for removing the response
+if (response) {
+    setTimeout(() => {
+        response.remove();
+    }, 5000);
+}
