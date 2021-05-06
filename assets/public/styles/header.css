@@ -5,6 +5,7 @@
 }
 body {
     background: #f1f1f1;
+    font-family: Georgia, 'Times New Roman', Times, serif;
 }
 nav#navBar {
     display: flex;

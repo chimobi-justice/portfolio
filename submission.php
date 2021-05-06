@@ -29,15 +29,15 @@
                 $toEmail = "chimobi.justice@gmail.com";
                 $subject = 'Submit Contact Form'. $firstname . $lastname;
                 $body = "<h2>Filled contact form:</h2>
-                         <h4>Name</h4><p>'. $firstname '</p>
-                         <h4>Email</h4><p>'. $email '</p>
-                         <h4>Message</h4><p>'. $message '</p>";
+                         <h4>Name</h4><p>' {$firstname} {$lastname} '</p>
+                         <h4>Email</h4><p>' {$email} '</p>
+                         <h4>Message</h4><p>' {$message} '</p>";
             
                 
                 $headers = "MIME-Version: 1.0" . "\r\n";
                 $headers .= "Content-Type: text/html; charset=UTF-8". "\r\n";
                 
-                $headers .= "From: .$firstname . $email" .  "\r\n";
+                $headers .= "From: {$firstname} {$email}" .  "\r\n";
         
                 if (mail($toEmail, $subject, $body, $headers)) {
                   $res['message'] = 'Your message has been sent, I\'ll get Back to you shortly!';
