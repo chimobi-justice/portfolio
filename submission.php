@@ -42,7 +42,7 @@
                 if (mail($toEmail, $subject, $body, $headers)) {
                   $res['message'] = 'Your message has been sent, I\'ll get Back to you shortly!';
                 } else {
-                    $rse['message'] = 'ERROR! your message wasn\'t Sent, Please try again';
+                    $res['message'] = 'ERROR! your message wasn\'t Sent, Please try again';
                 }
             }
         }
