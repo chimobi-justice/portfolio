@@ -13,7 +13,7 @@
     <div id="contact">
     <div class="contact_img_holder">
         <h3>I'm happy to connect, listen and help. Let's work together and build something awesome. Let's turn your idea to an even greater product. <i>Don't <b>hesitate</b> to contact me</i></h3>
-        <img src="assets/images/contact.png" alt="contact_illustration">
+        <img src="assets/src/images/contact.png" alt="contact_illustration">
     </div>  
 
     <form action="" id="contact_form" method="POST">
@@ -40,7 +40,3 @@
 
 
     <?php include('template/footer.php'); ?>
-
-    <script src="assets/js/contact.js"></script>
-
-

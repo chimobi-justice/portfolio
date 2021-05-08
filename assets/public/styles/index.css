@@ -9,7 +9,7 @@ body {
 
 /* services_section */
 #service {
-    background: linear-gradient(to left top, #0009 80%, rgba(61, 21, 90, .709804)),url(../images/service.png);
+    background: linear-gradient(to left top, #0009 80%, rgba(61, 21, 90, .709804)),url(../../src/images/service.png);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -20,7 +20,7 @@ body {
     padding: 15px;
     color: #fff;
     border-bottom: 1px solid pink;
-    width: 10%;
+    width: 12%;
     margin: 0px auto;
     padding-top: 6rem;
 }
@@ -58,7 +58,7 @@ body {
     padding: 15px;
     color: #000;
     border-bottom: 2px solid pink;
-    width: 13%;
+    width: 15%;
     margin: 0px auto;
     padding-top: 6rem;
 }
@@ -99,7 +99,7 @@ body {
         padding: 15px;
         color: #fff;
         border-bottom: 1px solid pink;
-        width: 23%;
+        width: 25%;
         margin: 0px auto;
         padding-top: 6rem;
     }
@@ -115,7 +115,7 @@ body {
         padding: 15px;
         color: #000;
         border-bottom: 2px solid pink;
-        width: 30%;
+        width: 33%;
         margin: 0px auto;
         padding-top: 6rem;
     }
@@ -144,11 +144,19 @@ body {
     }
 } 
 @media screen and (max-width: 540px) {
+    #service > .service_header {
+        padding: 15px;
+        color: #fff;
+        border-bottom: 1px solid pink;
+        width: 26%;
+        margin: 0px auto;
+        padding-top: 6rem;
+    }
     #work_section > .work_section_header {
         padding: 15px;
         color: #000;
         border-bottom: 2px solid pink;
-        width: 32%;
+        width: 35%;
         margin: 0px auto;
         padding-top: 6rem;
     }
@@ -166,7 +174,7 @@ body {
         padding: 15px;
         color: #fff;
         border-bottom: 1px solid pink;
-        width: 30%;
+        width: 32%;
         margin: 0px auto;
         padding-top: 6rem;
     }
@@ -182,7 +190,77 @@ body {
         padding: 15px;
         color: #000;
         border-bottom: 2px solid pink;
-        width: 40%;
+        width: 43%;
+        margin: 0px auto;
+        padding-top: 6rem;
+    }
+    #work_section > .work_section_head_content {
+        text-align: center;
+        padding: 15px;
+        font-size: 1.7em;
+        color: #000;
+        width: 85%;
+        margin: 0px auto;
+    }
+}
+
+@media screen and (max-width: 414px) {
+    #service > .service_header {
+        padding: 15px;
+        color: #fff;
+        border-bottom: 1px solid pink;
+        width: 36%;
+        margin: 0px auto;
+        padding-top: 6rem;
+    }
+    #service > .service_head_content {
+        text-align: center;
+        padding: 15px;
+        font-size: 1.7em;
+        color: #fff;
+        width: 80%;
+        margin: 0px auto;
+    }
+    #work_section > .work_section_header {
+        padding: 15px;
+        color: #000;
+        border-bottom: 2px solid pink;
+        width: 46%;
+        margin: 0px auto;
+        padding-top: 6rem;
+    }
+    #work_section > .work_section_head_content {
+        text-align: center;
+        padding: 15px;
+        font-size: 1.7em;
+        color: #000;
+        width: 85%;
+        margin: 0px auto;
+    }
+}
+
+@media screen and (max-width: 411px) {
+    #service > .service_header {
+        padding: 15px;
+        color: #fff;
+        border-bottom: 1px solid pink;
+        width: 34%;
+        margin: 0px auto;
+        padding-top: 6rem;
+    }
+    #service > .service_head_content {
+        text-align: center;
+        padding: 15px;
+        font-size: 1.7em;
+        color: #fff;
+        width: 80%;
+        margin: 0px auto;
+    }
+    #work_section > .work_section_header {
+        padding: 15px;
+        color: #000;
+        border-bottom: 2px solid pink;
+        width: 47%;
         margin: 0px auto;
         padding-top: 6rem;
     }
@@ -201,7 +279,7 @@ body {
         padding: 15px;
         color: #fff;
         border-bottom: 1px solid pink;
-        width: 33%;
+        width: 37%;
         margin: 0px auto;
         padding-top: 6rem;
     }
@@ -217,7 +295,7 @@ body {
         padding: 15px;
         color: #000;
         border-bottom: 2px solid pink;
-        width: 43%;
+        width: 49%;
         margin: 0px auto;
         padding-top: 6rem;
     }
@@ -231,46 +309,12 @@ body {
     }
 }
 
-@media screen and (max-width: 360px) {
-    #service > .service_header {
-        padding: 15px;
-        color: #fff;
-        border-bottom: 1px solid pink;
-        width: 35%;
-        margin: 0px auto;
-        padding-top: 6rem;
-    }
-    #service > .service_head_content {
-        text-align: center;
-        padding: 15px;
-        font-size: 1.7em;
-        color: #fff;
-        width: 85%;
-        margin: 0px auto;
-    }
-    #work_section > .work_section_header {
-        padding: 15px;
-        color: #000;
-        border-bottom: 2px solid pink;
-        width: 46%;
-        margin: 0px auto;
-        padding-top: 6rem;
-    }
-    #work_section > .work_section_head_content {
-        text-align: center;
-        padding: 15px;
-        font-size: 1.7em;
-        color: #000;
-        width: 90%;
-        margin: 0px auto;
-    }
-}
 @media screen and (max-width: 375px) {
     #service > .service_header {
         padding: 15px;
         color: #fff;
         border-bottom: 1px solid pink;
-        width: 35%;
+        width: 38%;
         margin: 0px auto;
         padding-top: 6rem;
     }
@@ -286,7 +330,7 @@ body {
         padding: 15px;
         color: #000;
         border-bottom: 2px solid pink;
-        width: 46%;
+        width: 51%;
         margin: 0px auto;
         padding-top: 6rem;
     }
@@ -299,12 +343,48 @@ body {
         margin: 0px auto;
     }
 }
+
+@media screen and (max-width: 360px) {
+    #service > .service_header {
+        padding: 15px;
+        color: #fff;
+        border-bottom: 1px solid pink;
+        width: 39%;
+        margin: 0px auto;
+        padding-top: 6rem;
+    }
+    #service > .service_head_content {
+        text-align: center;
+        padding: 15px;
+        font-size: 1.7em;
+        color: #fff;
+        width: 85%;
+        margin: 0px auto;
+    }
+    #work_section > .work_section_header {
+        padding: 15px;
+        color: #000;
+        border-bottom: 2px solid pink;
+        width: 53%;
+        margin: 0px auto;
+        padding-top: 6rem;
+    }
+    #work_section > .work_section_head_content {
+        text-align: center;
+        padding: 15px;
+        font-size: 1.7em;
+        color: #000;
+        width: 90%;
+        margin: 0px auto;
+    }
+}
+
 @media screen and (max-width: 320px) {
     #service > .service_header {
         padding: 15px;
         color: #fff;
         border-bottom: 1px solid pink;
-        width: 42%;
+        width: 44%;
         margin: 0px auto;
         padding-top: 6rem;
     }
@@ -320,7 +400,7 @@ body {
         padding: 15px;
         color: #000;
         border-bottom: 2px solid pink;
-        width: 54%;
+        width: 58%;
         margin: 0px auto;
         padding-top: 6rem;
     }
@@ -333,7 +413,43 @@ body {
         margin: 0px auto;
     }
 }
-@media screen and (min-width: 577px) and (max-width: 992px) {
+
+@media screen and (max-width: 280px) {
+    #service > .service_header {
+        padding: 15px;
+        color: #fff;
+        border-bottom: 1px solid pink;
+        width: 51%;
+        margin: 0px auto;
+        padding-top: 6rem;
+    }
+    #service > .service_head_content {
+        text-align: center;
+        padding: 15px;
+        font-size: 1.4em;
+        color: #fff;
+        width: 85%;
+        margin: 0px auto;
+    }
+    #work_section > .work_section_header {
+        padding: 15px;
+        color: #000;
+        border-bottom: 2px solid pink;
+        width: 66%;
+        margin: 0px auto;
+        padding-top: 6rem;
+    }
+    #work_section > .work_section_head_content {
+        text-align: center;
+        padding: 15px;
+        font-size: 1.4em;
+        color: #000;
+        width: 90%;
+        margin: 0px auto;
+    }
+}
+
+@media screen and (min-width: 577px) and (max-width: 600px) {
     .service_container {
         flex-direction: column;
     }
@@ -341,7 +457,7 @@ body {
         padding: 15px;
         color: #fff;
         border-bottom: 1px solid pink;
-        width: 18%;
+        width: 25%;
         margin: 0px auto;
         padding-top: 6rem;
     }
@@ -368,7 +484,135 @@ body {
         padding: 15px;
         color: #000;
         border-bottom: 2px solid pink;
+        width: 32%;
+        margin: 0px auto;
+        padding-top: 6rem;
+    }
+    #work_section > .work_section_head_content {
+        text-align: center;
+        padding: 15px;
+        font-size: 1.7em;
+        color: #000;
+        width: 70%;
+        margin: 0px auto;
+    }
+    #work_section > .work_wrapper {
+        width: 100%;
+        margin: 4rem 0rem 6rem 0rem;
+    }
+    #work_section > .work_wrapper div {
+        flex-direction: column;
+    }
+    #work_section > .work_wrapper div > .work_holder_img > a > img {
+        width: 100%;
+        height: 300px;
+    }
+    #work_section > .work_wrapper div > .work_img > img {
+        height: 340px;
+        width: 100%;
+    }
+}
+
+@media screen and (min-width: 601px) and (max-width: 650px) {
+    .service_container {
+        flex-direction: column;
+    }
+    #service > .service_header {
+        padding: 15px;
+        color: #fff;
+        border-bottom: 1px solid pink;
+        width: 24%;
+        margin: 0px auto;
+        padding-top: 6rem;
+    }
+    #service > .service_head_content {
+        text-align: center;
+        padding: 15px;
+        font-size: 1.7em;
+        color: #fff;
+        width: 70%;
+        margin: 0px auto;
+    }
+    .service_container > .service_container_wrapper {
+        margin: 10px;
+        padding: 10px;
+        text-align: center;
+        font-size: 1.4em;
+    }
+    .service_container > .service_container_wrapper > .service_numbers {
+        color: pink;
+        font-size: 2.5em;
+        padding-bottom: 10px;
+    }
+    #work_section > .work_section_header {
+        padding: 15px;
+        color: #000;
+        border-bottom: 2px solid pink;
+        width: 31%;
+        margin: 0px auto;
+        padding-top: 6rem;
+    }
+    #work_section > .work_section_head_content {
+        text-align: center;
+        padding: 15px;
+        font-size: 1.7em;
+        color: #000;
+        width: 70%;
+        margin: 0px auto;
+    }
+    #work_section > .work_wrapper {
+        width: 100%;
+        margin: 4rem 0rem 6rem 0rem;
+    }
+    #work_section > .work_wrapper div {
+        flex-direction: column;
+    }
+    #work_section > .work_wrapper div > .work_holder_img > a > img {
+        width: 100%;
+        height: 300px;
+    }
+    #work_section > .work_wrapper div > .work_img > img {
+        height: 340px;
+        width: 100%;
+    }
+}
+
+@media screen and (min-width: 651px) and (max-width: 992px) {
+    .service_container {
+        flex-direction: column;
+    }
+    #service > .service_header {
+        padding: 15px;
+        color: #fff;
+        border-bottom: 1px solid pink;
         width: 23%;
+        margin: 0px auto;
+        padding-top: 6rem;
+    }
+    #service > .service_head_content {
+        text-align: center;
+        padding: 15px;
+        font-size: 1.7em;
+        color: #fff;
+        width: 70%;
+        margin: 0px auto;
+    }
+    .service_container > .service_container_wrapper {
+        margin: 10px;
+        padding: 10px;
+        text-align: center;
+        font-size: 1.4em;
+    }
+    .service_container > .service_container_wrapper > .service_numbers {
+        color: pink;
+        font-size: 2.5em;
+        padding-bottom: 10px;
+    }
+    #work_section > .work_section_header {
+        padding: 15px;
+        color: #000;
+        border-bottom: 2px solid pink;
+        width: 29%;
         margin: 0px auto;
         padding-top: 6rem;
     }

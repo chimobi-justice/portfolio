@@ -4,19 +4,18 @@
             <div class="line_top_impo_text"></div>
             <h4 class="impo_text">GET IN TOUCH</h4>
             <h1>I'm happy to connect, listen and help. Let's work together and build something awesome. Let's turn your idea to an even greater product </h1>
-
-            <h1 id="email_link"><a href="contact.php" class="red_text">Email Me.</a></h1>
-            <div class="line_bottom_red_text"></div>
         </div>
 
         <div class="contact">
             <div class="call_me">
              <p>Call Me</p>
-             <h3><a href ="tel:08021185592">+234 802 118 5592</a></h3>
+             <h3><a href="tel:08021185592">+234 802 118 5592</a></h3>
+             <p><a href="contact.php">Email</a></p>
+             <h4><a href="mailto:chimobi.justice@gmail.com">chimobi.justice@gmail.com</a></h4>
             </div>
             <div class="social">
               <p>Social</p>
-              <div><a href="https://www.justice-chimobi.10">facebook|</a> <a href="#">twitter|</a><a href="https://www.linkedin.com/in/justice-chimobi-8742091b1/">linkedIn|</a><a href="#">instagram</a></div>
+              <div><a href="https://www.justice-chimobi.10" target="_blank">facebook|</a> <a href="#" target="_blank">twitter|</a><a href="https://www.linkedin.com/in/justice-chimobi-8742091b1/" target="_blank">linkedIn|</a><a href="#" target="_blank">instagram</a></div>
             </div>
         </div>
 
@@ -26,6 +25,9 @@
         </div>
     </footer>
 
-    <script src="assets/js/index.js"></script>
+    <script src="assets/public/js/index.js"></script>
+    <script src="assets/public/js/contact.js"></script>
+
 
 </body>
+</html>

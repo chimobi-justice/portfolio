@@ -4,7 +4,7 @@
     margin: 0px auto;
     padding: 4rem 0px 9rem 0px;
 }
-#about-section > h3 {
+#about-section > h2 {
     padding: 5px; 
     margin: 5px;
 }
@@ -20,8 +20,7 @@
     padding: 5px;
 }
 .btn_hire_link > a{
-    width: 80%;
-    margin: 0px auto;
+    width: 97%;
     margin-top: 20px;
     padding: 5px;
     font-size: 18px;
@@ -37,8 +36,7 @@
     color: #fff;
 }
 .btn_cv_link > a{
-    width: 80%;
-    margin: 0px auto;
+    width: 97%;
     margin-top: 20px;
     padding: 5px;
     font-size: 18px;
@@ -79,8 +77,9 @@
     #about_wrapper {
         flex-direction: column;
         font-size: 1.5em;
+
     }
-    .btn_hire_link > a{
+    .btn_hire_link{
         width: 100%;
     }
     .btn_cv_link > a{
