@@ -8,7 +8,7 @@
           </div>
         </div>
         <div id="hero-img-section">
-          <img src="assets/src/images/hero-img.png" alt="profile">
+          <img src="./assets/src/images/hero-img.png" alt="profile">
         </div>
     </div>
 </section>

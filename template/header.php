@@ -9,12 +9,12 @@
     <meta name="author" content="Justice Chimobi">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>justice-Dev</title>
-    <link rel="stylesheet" href="assets/public/styles/header.css">
-    <link rel="stylesheet" href="assets/public/styles/index.css">
-    <link rel="stylesheet" href="assets/public/styles/herosection.css">
-    <link rel="stylesheet" href="assets/public/styles/about.css">
-    <link rel="stylesheet" href="assets/public/styles/contact.css">
-    <link rel="stylesheet" href="assets/public/styles/footer.css">
+    <link rel="stylesheet" href="./assets/public/styles/header.css">
+    <link rel="stylesheet" href="./assets/public/styles/index.css">
+    <link rel="stylesheet" href="./assets/public/styles/herosection.css">
+    <link rel="stylesheet" href="./assets/public/styles/about.css">
+    <link rel="stylesheet" href="./assets/public/styles/contact.css">
+    <link rel="stylesheet" href="./assets/public/styles/footer.css">
 </head>
 <body>
 
@@ -28,10 +28,10 @@
         <li><a href="contact.php">SAY HELLO</a></li>
       </ul>
       <div id="social-media">
-        <li><a href="https://www.justice-chimobi.10" target="_blank"><img src="assets/src/images/facebook.png" alt="facebook"></a></li>
-        <li><a href="#"><img src="assets/src/images/twitter.ico" target="_blank" alt="twitter"></a></li>
-        <li><a href="https://www.linkedin.com/in/justice-chimobi-8742091b1/" target="_blank"><img src="assets/src/images/linkedin.ico" alt="linkedIn"></a></li>
-        <li><a href="#"><img src="assets/src/images/icon-instagram.svg" target="_blank" alt="instagram"></a></li>
+        <li><a href="https://www.justice-chimobi.10" target="_blank"><img src="./assets/src/images/facebook.png" alt="facebook"></a></li>
+        <li><a href="#"><img src="./assets/src/images/twitter.ico" target="_blank" alt="twitter"></a></li>
+        <li><a href="https://www.linkedin.com/in/justice-chimobi-8742091b1/" target="_blank"><img src="./assets/src/images/linkedin.ico" alt="linkedIn"></a></li>
+        <li><a href="#"><img src="./assets/src/images/icon-instagram.svg" target="_blank" alt="instagram"></a></li>
       </div>
     </nav>
 

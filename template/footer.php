@@ -25,8 +25,8 @@
         </div>
     </footer>
 
-    <script src="assets/public/js/index.js"></script>
-    <script src="assets/public/js/contact.js"></script>
+    <script src="./assets/public/js/index.js"></script>
+    <script src="./assets/public/js/contact.js"></script>
 
 
 </body>
