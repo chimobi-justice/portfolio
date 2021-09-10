@@ -1,0 +1,88 @@
+/* About */
+#about-section {
+    width: 90%;
+    margin: 0px auto;
+    padding: 4rem 0px 9rem 0px;
+}
+#about-section > h2 {
+    padding: 5px; 
+    margin: 5px;
+}
+
+#about_wrapper {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    line-height: 1.7em;
+}
+#about_wrapper > .about-wrapper-content {
+    margin: 5px;
+    padding: 5px;
+}
+.btn_hire_link > a{
+    width: 97%;
+    margin-top: 20px;
+    padding: 5px;
+    font-size: 18px;
+    background: #fff;
+    color: #000;
+    border: 1px solid #000;
+    display: block;
+    text-decoration: none;
+    text-align: center;
+}
+.btn_hire_link > a:hover {
+    background: #000;
+    color: #fff;
+}
+.btn_cv_link > a{
+    width: 97%;
+    margin-top: 20px;
+    padding: 5px;
+    font-size: 18px;
+    background: #000;
+    color: #fff;
+    border: 1px solid #000;
+    display: block;
+    text-decoration: none;
+    text-align: center;
+}
+.btn_cv_link > a:hover {
+    background: #fff;
+    color: #000;
+}
+
+@media screen and (max-width: 576px) {
+    #about-section > h3 {
+        padding: 5px; 
+        margin: 5px;
+        font-size: 1.7em;
+    }
+    #about_wrapper {
+        flex-direction: column;
+    }
+    .btn_hire_link > a{
+        width: 100%;
+    }
+    .btn_cv_link > a{
+        width: 100%;
+    }
+}
+@media screen and (min-width: 577px) and (max-width: 992px) {
+    #about-section > h3 {
+        padding: 5px; 
+        margin: 5px;
+        font-size: 1.6em;
+    }
+    #about_wrapper {
+        flex-direction: column;
+        font-size: 1.5em;
+
+    }
+    .btn_hire_link{
+        width: 100%;
+    }
+    .btn_cv_link > a{
+        width: 100%;
+    }
+ }  
